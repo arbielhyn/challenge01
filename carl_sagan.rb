@@ -23,4 +23,4 @@ time    = { :that => 'This', :period => '.'}
 puts "#{time[:that]} #{example[2]} #{example[1]} #{example[0]}#{time[:period]}"
 
 # Output for the "We are a way for the cosmos to know itself.""
-puts "#{carl[:words][2]} #{sagan[0][:are]} #{sagan[1]['waaaaaay']} #{carl[:words][0]} #{sagan[3][2][0]} #{carl[:toast]} #{sagan[2]}#{carl[:punctuation][1]}"
+puts "#{carl[:words][2].capitalize} #{sagan[0][:are]} #{sagan[0]['A']} #{sagan[1]['waaaaaay']} #{carl[:words][0]} #{sagan[3][2][0]} #{carl[:toast]} #{sagan[2]}#{carl[:punctuation][1]}"
